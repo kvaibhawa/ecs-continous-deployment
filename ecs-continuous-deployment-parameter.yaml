@@ -1,0 +1,16 @@
+ParameterKey=LaunchType,ParameterValue=EC2 ParameterKey=GitHubUser,ParameterValue=kvaibhawa ParameterKey=GitHubRepo,ParameterValue=example-on-ecs ParameterKey=GitHubBranch,ParameterValue=master ParameterKey=GitHubToken,ParameterValue=1476a4f217a29ad9a4dc2fd93c736c8b4b009739 ParameterKey=TemplateBucket,ParameterValue=ecs-continous-deployment
+
+- ParameterKey: SecGroup
+  ParameterValue: sg-23981257
+- ParameterKey: InstanceType
+  ParameterValue: t2.xlarge
+- ParameterKey: KeyName
+  ParameterValue: demokeys
+- ParameterKey: demoIAMProfileRole
+  ParameterValue: jenkinsec2role
+- ParameterKey: RHEL73AMI
+  ParameterValue: ami-185a260e
+- ParameterKey: Subnets
+  ParameterValue: subnet-6916b333,subnet-a80606cd
+- ParameterKey: VpcId
+  ParameterValue: vpc-c08425b9
