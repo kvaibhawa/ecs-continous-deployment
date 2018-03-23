@@ -3,7 +3,7 @@ Demo ECS Continuous Deployment with Github, Code Build and Pipeline.
 This Demo Example will create ECS contious deployment pipeline with nested cloudformation template of vpc, lb, ecs-cluster, service and deployment pipeline.
 
 - Clone in local folder
-- Edit and update run.sh file for <update the project path>, <name of stack>, <github user token>
+- Edit and update run.sh file for "update the project path", "name of stack", "github user token"
 - Setup aws configure with Access key ID	and Secret access key with Region.
 - execute the run.sh to build
 
