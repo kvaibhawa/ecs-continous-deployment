@@ -12,7 +12,7 @@ Parameters:
       - Fargate
       - EC2
     Description: The launch type for your service. Selecting EC2 will create an Auto
-      Scaling group of t2.micro instances for your cluster. 
+      Scaling group of t2.micro instances for your cluster.
 
   GitHubUser:
     Type: String
